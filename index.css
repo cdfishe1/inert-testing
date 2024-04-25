@@ -1,0 +1,12 @@
+ul {
+	height: 0;
+	line-height: 0;
+	overflow: hidden;
+
+}
+
+.active {
+	line-height: initial;
+	overflow: initial;
+	
+}
