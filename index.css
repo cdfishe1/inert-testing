@@ -1,4 +1,4 @@
-ul {
+[data-list-container] {
 	height: 0;
 	line-height: 0;
 	overflow: hidden;
