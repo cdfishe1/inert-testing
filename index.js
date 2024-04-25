@@ -2,6 +2,7 @@ const button = document.querySelector("button");
 const list = document.querySelector("ul");
 
 button.addEventListener("click", ()=> {
+	console.log(button + "click!");
 	list.classList.toggle("active");
 	if(!list.classList.contains("active")) {
 		button.setAttribute("aria-expanded", "false");
