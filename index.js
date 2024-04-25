@@ -1,5 +1,5 @@
 const button = document.querySelector("button");
-const list = document.querySelector("ul");
+const list = document.querySelector("[data-list-container]");
 
 button.addEventListener("click", ()=> {
 	console.log(button + "click!");
